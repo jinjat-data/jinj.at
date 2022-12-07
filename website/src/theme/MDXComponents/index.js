@@ -31,7 +31,6 @@ import VersionBlock from '@site/src/components/versionBlock';
 import Var from '@site/src/components/variable';
 import Term from '@site/src/components/term';
 import EventsFeed from '@site/src/components/events';
-import { DiscourseFeed, DiscourseHelpFeed }  from '@site/src/components/discourse';
 import Hero from '@site/src/components/hero'
 import Card from '@site/src/components/card'
 import Callout from '@site/src/components/callout'
@@ -79,8 +78,6 @@ const MDXComponents = {
   Var: Var,
   Term: Term,
   EventsFeed: EventsFeed,
-  DiscourseFeed: DiscourseFeed,
-  DiscourseHelpFeed: DiscourseHelpFeed,
   Card: Card,
 };
 export default MDXComponents;

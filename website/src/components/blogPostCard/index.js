@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
-import createPostPreview from '@site/functions/post-preview';
+// import createPostPreview from '@site/functions/post-preview';
 
 
 function BlogPostCard({ postMetaData }) {
@@ -15,7 +15,7 @@ function BlogPostCard({ postMetaData }) {
           <Link to={useBaseUrl(link)}><h3>{title}</h3></Link>
           {readingTime && <span>{date} · {readingTime} minute read</span>}
           <p>
-            {createPostPreview(description, 140)}
+            {/* {createPostPreview(description, 140)} */}
           </p>
           <Link className={styles.ctaLink} to={useBaseUrl(link)}>Read more</Link>
         </div>

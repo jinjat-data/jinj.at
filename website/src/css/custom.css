@@ -1592,12 +1592,6 @@ footer #ot-sdk-btn.optanon-show-settings:hover {
   text-decoration: underline;
 }
 
-/* Discourse Forum & Events Page */
-.events-page section,
-section.discourse-forum-page {
-  padding: 4rem 0;
-}
-
 /* New Homepage Styles */
 
 .home section {
