@@ -182,8 +182,6 @@ The `docs` attribute now supports `node_color` to customize the node color in th
 
 Add custom node colors to models within subdirectories based on hex codes or a plain color name.
 
-![Example](../../../../website/static/img/node_color_example.png)
-
 `marts/core/fct_orders.sql` with `node_color: red` overrides `dbt_project.yml` with `node_color: gold`
 
 `marts/core/schema.yml` with `node_color: #000000` overrides `dbt_project.yml` with `node_color: gold`
